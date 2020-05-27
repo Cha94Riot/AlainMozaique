@@ -1,13 +1,15 @@
 var flag = true;
-var j = 1;
+var j = 1
+var j2 = Math.round((Math.random()*5)+1);
 
 function imageLoad() {
   var i;
 
   if(flag){
-    if(j == 12){
-      j = Math.round((Math.random()*5)+1);
-      
+    if(j == 15){
+      j2 = (j2%6) + 1;
+      j = j2;
+
       for(i = 1; i < 10; i++){
 
         var elem = document.createElement("img");
