@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+}
+
+body {
+  margin: 2em;
+}
+
+.grids {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 85vmin;
+  height: 85vmin;
+  grid-gap: 0px;
+  margin: auto;
+}
+
+.buttonDiv{
+  margin-top: 10px;
+  text-align: center;
+}
+
+ul {
+  display: grid;
+  padding: 0;
+}
